@@ -1,0 +1,161 @@
+body {
+  font-family: "Raleway", Arial, sans-serif;
+  margin-bottom: -8px;
+  max-width: 1500px;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 45px;
+  flex-direction: row;
+  gap: 2rem;
+  font-weight: 800;
+  background-color: #6c6570;
+}
+h2{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-weight: 400;
+}
+
+.MyArt {
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+  color: white;
+}
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+  color: white;
+}
+
+.w3-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+/* Ipad Screen (810/1080) */
+@media (max-width:810px){
+    body{
+        background-color: rgba(0, 0, 0, 0.808);
+        margin-bottom: 8px;
+       
+    }
+     .img-1{  
+     width: 135px;
+     height: 150px;
+ }
+ .img-2{
+  padding-top: 15px;
+     width: 300px;
+     height: 150px;
+ }
+ .liste{
+     width: 50px;
+     height: 150px;
+ }
+ p{
+     width:670px;
+   
+ }
+ #about{
+    padding-bottom: 45px;
+ }
+
+
+ }
+/* iphone 12,13Pro 390/844 */
+@media (max-width:390px){
+   body{
+       background-color: rgba(0, 0, 0, 0.808);
+   }
+    .img-1{  
+    width: 80px;
+    height: 103px;
+}
+
+.img-2{
+    width: 170px;
+    height: 150px;
+}
+.liste{
+    width: 50px;
+    height: 150px;
+}
+p{
+    width:300px;
+}
+}
+
+
+.w3-half {
+  width: 100%;
+}
+
+img {
+  box-shadow: rgba(0, 0, 0, 0.212) 3px 0ex 3px;
+  width: 200px;
+  height: 250px;
+  border-radius: 5px;
+}
+
+footer {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  background-color: #6c6570;
+  color: blanchedalmond;
+  padding-bottom: 25px;
+  box-shadow: #6c65706b 3px 3px 1px;
+}
+
+form {
+  width: 60%;
+}
+
+.imgShepp {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.img_Fotter {
+  border: none;
+  height: 300px;
+  width: 350px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+p {
+  text-align: justify;
+}
+#Donot {
+    display: flex;
+    flex-wrap: wrap;
+  font-weight: 700;
+}
+
+.liste {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 250px;
+}
+
+.emailName {
+display: flex;
+flex-wrap: wrap;
+  width: 293px;
+}
+
+button {
+  width: 85px;
+}
+
