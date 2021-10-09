@@ -2,6 +2,7 @@ body {
   font-family: "Raleway", Arial, sans-serif;
   margin-bottom: -8px;
   max-width: 1500px;
+  background: linear-gradient(to left,rgb(206, 211, 206),rgba(0,0,0,950));
 }
 
 header {
